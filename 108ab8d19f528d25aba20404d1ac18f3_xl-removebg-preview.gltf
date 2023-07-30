@@ -1,0 +1,156 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "node1",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part000"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2572,
+      "type": "VEC3",
+      "min": [
+        -0.71741998195648193,
+        -0.73619997501373291,
+        19.800300598144531
+      ],
+      "max": [
+        -0.39188998937606812,
+        0.74325001239776611,
+        20.998260498046875
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2572,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2572,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 13974,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material00",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "combinacióndecapa1-texturadifusión"
+    }
+  ],
+  "images": [
+    {
+      "uri": "combinacióndecapa1-texturadifusión.png"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 55896
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 55896,
+      "byteLength": 30864,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 86760,
+      "byteLength": 30864,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 117624,
+      "byteLength": 20576,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 138200,
+      "uri": "108ab8d19f528d25aba20404d1ac18f3_xl-removebg-preview.bin"
+    }
+  ]
+}
